@@ -1,0 +1,181 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "studentName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "email",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "issuer",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "degreeName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "ifpsHash",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "ifpsUrl",
+						"type": "string"
+					}
+				],
+				"name": "addRecord",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "provider",
+						"type": "address"
+					}
+				],
+				"name": "authorizeProvider",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "id",
+						"type": "uint256"
+					}
+				],
+				"name": "getDegreeRecords",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "id",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string",
+								"name": "studentName",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "email",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "issuer",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "degreeName",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "ifpsHash",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "ifpsUrl",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "timestamp",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct DegreeRecords.Degree[]",
+						"name": "",
+						"type": "tuple[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getOwner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/DegreeReCords.sol": "DegreeRecords"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/DegreeReCords.sol": {
+			"keccak256": "0x0f95a34d1b20d97823c17f5b1d127516221a2265f16d1ec2d2cb66b1ab180aa5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c57e7a5a95d38ed58bbc6b373700181dc66626c24efa9330bc4edae96f5d67a5",
+				"dweb:/ipfs/QmTwpd2F8QfhLbT3kznDTaFpX3uhQsg2AidWGTbev2VDBc"
+			]
+		}
+	},
+	"version": 1
+}
